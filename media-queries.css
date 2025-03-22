@@ -1,0 +1,43 @@
+@media screen and (max-width: 991px) {
+   .hamberger{
+    display: block;
+    margin: 20px;
+
+   }
+   .nav-links{
+    display: none;
+   }
+
+   .header-section{
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+    .example-card{
+        width: calc(50% - 10px);
+        height: 180px;
+
+    }
+
+    .examples-section{
+        gap: 20px;
+    }
+
+    .cta-element{
+        padding: 50px;
+        
+    }
+
+    .cta-section{
+        height: 300px;
+    }
+
+   
+    .companies-section{
+        flex-wrap: wrap;
+    }
+}
+
